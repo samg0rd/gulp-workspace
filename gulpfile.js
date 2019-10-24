@@ -6,8 +6,6 @@ const concat = require('gulp-concat');
 
 const browserSync = require('browser-sync').create();
 
-const PORT = 8080;
-
 /**
  -- TOP LEVEL FUNCTIONS --
  gulp.task - define tasks
