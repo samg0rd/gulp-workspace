@@ -21,6 +21,7 @@ const copyHtml = done => {
     .pipe(browserSync.stream());
   done();
 }
+exports.copyHtml = copyHtml;
 
 // optimise images
 const imageMin = done => {
@@ -30,6 +31,7 @@ const imageMin = done => {
     .pipe(browserSync.stream());
   done();
 }
+exports.imageMin = imageMin;
 
 // Compile Sass
 const sassCompiler = done => {
@@ -39,6 +41,7 @@ const sassCompiler = done => {
     .pipe(browserSync.stream());
   done();
 }
+exports.sassCompiler = sassCompiler;
 
 // // concat js files
 const scripts = done => {
@@ -49,6 +52,7 @@ const scripts = done => {
     .pipe(browserSync.stream());
   done();
 }
+exports.scripts = scripts;
 
 
 
