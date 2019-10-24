@@ -7,3 +7,8 @@ console.log('GULPPP IS WATCHING!');
 
 // file 2
 console.log('this another log from file 1');
+
+
+// test log
+var test = 'hello world!';
+console.log('test --> ', test);

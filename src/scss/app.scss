@@ -1,4 +1,4 @@
-$bgColor: #404d54;
+$bgColor: #ccc;
 $txtColor: #9e167e;
 
 *,
@@ -6,12 +6,13 @@ $txtColor: #9e167e;
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 
 body {  
-  background: $bgColor;
+  background: $bgColor;  
   h1{
-    color: $txtColor;
+    color: $txtColor;  
+    border: 1px solid orange;         
   }  
 }
